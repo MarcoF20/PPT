@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Evaluación PPT</title>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Press+Start+2P&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="./styles.css"/>
+  </head>
+  <body onload="temporizador()">  
+
+    <header>
+        <h1>¡Piedra, Papel o Tijera!</h1>
+    </header>
+
+    <section id="container">
+      <article>
+        <button class="piedra" onclick="jugar(0)">Piedra<br><img class="piedra" src="./rock.png"></button>
+        <button class="papel"  onclick="jugar(1)">Papel<br><img class="papel" src="./paper.png"></button>
+        <button class="tijera" onclick="jugar(2)">Tijera<br><img class="tijera" src="./scissors.png"></button>
+    </article>
+    </section>
+    <div id="container2">
+      <article id="iP1">Jugador</article>
+     <section> 
+      <h2>Jugador:</h2>
+      <h3 id="Jugador"></h3>
+      <td><h2>Computador:</h2></td>
+      <h3 id="Computador"></h3>
+      <h2>Resultado:</h2>
+      <h3 id="resultado"></h3>
+    </section>
+    <article id="iCPU">CPU</article>
+    </div>
+    
+     
+
+    <script type="text/javascript" src="./app.js"></script>
+  </body>
+</html>

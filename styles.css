@@ -1,0 +1,58 @@
+h1
+{
+font-family: 'Press Start 2P', cursive;
+margin-bottom: 25px;
+}
+h2
+{
+  font-family: 'Roboto', sans-serif;
+}
+
+h3
+{
+font-family: 'Press Start 2P', cursive;
+}
+
+*{
+  background-color: rgb(183, 0, 255); /* Añadimos un fondo de color y todos los textos alineados al centro*/
+  text-align: center;
+}
+
+button{
+  background-color: rgb(252, 57, 187);
+  font-family: 'Press Start 2P', cursive;
+  height: 75px;
+  width: 250px;
+  border-radius: 15px;
+
+  /* Le damos un fondo de color a los botones, asi como
+  un alto y un ancho ademas de un borde rendondo.*/
+}
+button:hover{
+  cursor: pointer;
+  background-color: #fff;
+
+  /* el color de fondo de los botones cambia a blanco
+  cuando el cursor pasa por el  boton, el cursor cambia a una manita*/
+}
+.tijera img, .piedra img, .papel img{
+  background-color: transparent;
+  height: 50px;
+  width: 50px;
+  /* le damos medida a la imagen*/
+}
+
+#container2{
+  display: flex;
+  
+  justify-content: space-between;
+}
+
+#container2 article{
+  height: 350px;
+  width: 20%;
+}
+#iP1, #iCPU{
+  font-family: 'Press Start 2P', cursive;
+  font-size: x-large;
+}
